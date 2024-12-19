@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<div class="container" align="center">
+		<h1>Student FeedBack Form</h1>
+		<form method="post">
+			{{form.as_p}}
+			{%csrf_token%}
+			<br>
+			<input type="submit" value="submit">
+		</form>
+	</div>
+
+</body>
+</html>
